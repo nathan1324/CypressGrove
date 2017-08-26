@@ -189,7 +189,10 @@ textarea:focus {
 	color: #fff;
 }
 #main-nav .navbar-brand {
-	background-color: #01b1d7;
+	color: #00000;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
 }
 /*Toggle Menu*/
 #main-nav .navbar-toggle {
