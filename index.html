@@ -37,10 +37,13 @@
 			<section id="banner">
 				<div class="inner">
 					<h1><img src="images/logo-white.png" style="width: 10%; height: 90%; object-fit: contain;"></h1>
-					<h1>Cypress Grove</h1>
-					<p>New Braunfels premier mobile home community</p>
+					<h1 class="notranslate">Cypress Grove</h1>
+					<p>
+						New Braunfels premier mobile home community
+					</p>
+					<div id="google_translate_element"></div>
 				</div>
-				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+				<!-- <video autoplay loop muted playsinline src="images/banner.mp4"></video> -->
 			</section>
 
 		<!-- Highlights -->
@@ -207,6 +210,14 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script type="text/javascript">
+				function googleTranslateElementInit() {
+  					new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+				}
+			</script>
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>	
+        
 
 	</body>
 </html>

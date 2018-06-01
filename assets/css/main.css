@@ -1817,7 +1817,7 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/bg-collage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2068,7 +2068,7 @@ ul.icons {
   background-color: #00AF55;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
+  background-image: linear-gradient(rgba(0, 175, 85, 0.25), rgba(0, 175, 85, 0.25)), url(../../images/nbtx.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2520,7 +2520,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/banner.jpg");
+  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/bg-collage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2841,3 +2841,36 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+#google_translate_element {
+  display: inline-block;
+  text-align: center;
+  width: 30%; 
+}
+
+@media only screen and (max-width: 768px) {
+  #google_translate_element {
+    display: inline-block;
+    text-align: center;
+    width: 70%; 
+  }
+}
+
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
